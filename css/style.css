@@ -5,4 +5,64 @@
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
+    color:#0000008c ;
 }
+
+    /*TOP*/
+
+.top {
+    display: flex;
+    background-color: rgb(92, 218, 218);
+    padding: 5px 50px;
+    justify-content: space-around;
+    height: 50px;
+}
+
+.tamanho-maximo {
+    max-width: 1024px;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.logotipo {
+    width: 285px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container img {
+    width: 120px;
+    height: 120;
+}
+
+.links-topo {
+    display: flex;
+    width: 250px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10;
+}
+
+.links-topo a {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #ffff;
+    font-weight: 600;
+}
+
+.links-topo a:hover {
+    color: black;
+}
+
+/*END TOP*/
