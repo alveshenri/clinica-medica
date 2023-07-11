@@ -1,63 +1,74 @@
 * {
-    margin: 0;
-    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
+    margin: 0;
+    padding: 0;
     font-family: 'Source Sans Pro', sans-serif;
-    color:#0000008c ;
+    background-color: #fff;
 }
 
-    /*TOP*/
-
-.top {
-    display: flex;
-    background-color: rgb(92, 218, 218);
-    padding: 5px 50px;
-    justify-content: space-around;
-    height: 50px;
-}
-
-.tamanho-maximo {
-    max-width: 1024px;
-    width: 100%;
+main {
+    color: #0000008c;
+    margin-bottom: 60px;
 }
 
 .container {
+    max-width: 1024px;
+    margin: 0;
+}
+
+.container-conteudo {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container-conteudo h2,
+.container-conteudo h3 {
+    margin: 0;
+}
+
+/*TOP*/
+
+.top {
+    background-color: rgb(109, 219, 219);
+    width: 100%;
+}
+
+.top .container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
-    gap: 15px;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 60px;
+    padding: 0 10px;
+    margin: 0 auto;
 }
 
 .logotipo {
-    width: 285px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
-.container img {
-    width: 120px;
-    height: 120;
+.logotipo a {
+    display: flex;
+}
+
+.imagem-logo {
+    width: 80px;
 }
 
 .links-topo {
     display: flex;
-    width: 250px;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 10;
 }
 
 .links-topo a {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     text-decoration: none;
     color: #ffff;
+    padding: 13px;
     font-weight: 600;
 }
 
@@ -66,3 +77,29 @@ body {
 }
 
 /*END TOP*/
+
+/*DESTAQUE*/
+
+.destaque{
+    background-image: url('../assets/recepcao2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+    margin-top: 0; 
+}
+
+.destaque-titulo {
+    display: flex;
+    height: 100%;
+    color: #ffff;
+    align-items: center;
+    padding: 13px;
+}
+
+.destaque-titulo h1 {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
