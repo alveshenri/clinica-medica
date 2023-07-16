@@ -84,6 +84,91 @@ body {
     text-transform: uppercase;
 }
 
+/* END DESTAQUE */
+/* SOBRE */
+
+.box-sobre {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-sobre ul {
+    margin: 30px;
+}
+
+/* ESPECIALIDADE */
+
+.box-especialidades {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.box-especialidade {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2px;
+    box-shadow: 4px 4px 2px 2px #00000048;
+}
+
+.box-especialidade img {
+    width: 250px;
+}
+
+.box-especialidade p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.box-link-horarios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.box-link-horarios a {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: rgb(54, 156, 156);
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #fff;
+}
+
+/* END SOBRE */
+
+/* CONTATO */
+
+.secao-contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secao-contato p {
+    padding: 10px;
+}
+
+.container-rota {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-rota iframe {
+    width: 100%;
+}
+
+/* END CONTATO */
 
 /* FOOTER */
 
@@ -98,8 +183,11 @@ footer {
     align-items: center;
     line-height: 30px;
     text-align: center;
+    width: 100%;
 }
 
 .cont img {
     width: 120px;
 }
+
+/* END FOOTER */
