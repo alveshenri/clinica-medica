@@ -83,3 +83,23 @@ body {
     font-size: 35px;
     text-transform: uppercase;
 }
+
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    background-color: rgb(107, 207, 207);
+}
+.cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+    text-align: center;
+}
+
+.cont img {
+    width: 120px;
+}
