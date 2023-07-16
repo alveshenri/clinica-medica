@@ -2,19 +2,27 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CMLife - Especialidades</title>
+
+  <link rel="stylesheet" href="css/style-especialidades.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap">
+
 </head>
 
 <body>
-  <header>
-    <div>
-      <div>
+
+  <!-- TOPO -->
+
+  <header class="topo">
+    <div class="container container-limitado">
+      <div class="topo-titulo">
         <a href="index.html">
           <img src="assets/logo.png" alt="Clínica Médica" title="Clínica Médica Life">
         </a>
       </div>
 
-      <nav>
+      <nav class="topo-links">
         <a href="index.html#sobre">Sobre</a>
         <a href="especialidades.html">Especialidades</a>
         <a href="index.html#contato">Contato</a>
@@ -22,9 +30,11 @@
     </div>
   </header>
 
+  <!-- END TOPO -->
+
   <main>
-    <section>
-      <div>
+    <section class="sec-specialties">
+      <div class="specialties-links container-limitado">
         <a href="#ortopedia">Ortopedia</a>
         <a href="#pediatria">Pediatria</a>
         <a href="#geriatria">Geriatria</a>
@@ -35,16 +45,16 @@
       <h1>Conheça as nossas especialidades</h1>
     </section>
 
-    <section id="ortopedia">
-      <div>
+    <section id="ortopedia" class="container-limitado">
+      <div class="container-conteudo">
         <h3>Ortopedia</h3>
         <p>A ortopedia é a especialidade médica que cuida da saúde relacionadas aos elementos do aparelho locomotor, como ossos, músculos, ligamentos e articulações.</p>
       </div>
 
-      <div>
+      <div class="specialties-schedule">
           <img src="assets/ortopedia.png" alt="Médico" title="Médico">
 
-          <table class="tabela-especialistas">
+          <table class="table-specialties">
             <thead>
               <tr>
                 <th>Dias</th>
@@ -74,15 +84,15 @@
       </div>
     </section>
 
-    <section id="pediatria">
-      <div>
+    <section id="pediatria" class="container-limitado">
+      <div class="container-conteudo">
         <h3>Pediatria</h3>
         <p>A pediatria é a especialidade médica dedicada à assistência à criança e ao adolescente, nos seus diversos aspectos, sejam eles preventivos ou curativos.</p>
       </div>
 
-      <div>
+      <div class="specialties-schedule">
           <img src="assets/pediatra2.png" alt="Pediatra" title="Pediatra">
-          <table>
+          <table class="table-specialties">
             <thead>
               <tr>
                 <th>Dias</th>
@@ -112,16 +122,16 @@
       </div>
     </section>
 
-    <section id="geriatria">
-      <div>
+    <section id="geriatria" class="container-limitado">
+      <div class="container-conteudo">
         <h3>Geriatria</h3>
         <p>Medicina geriátrica ou geriatria é o ramo da medicina que foca o estudo, a prevenção e o tratamento de doenças e da incapacidade em idades avançadas.</p>
       </div>
 
-      <div>
+      <div class="specialties-schedule">
         <img src="assets/geriatra.png" alt="Geriatra" title="Geriatra">
 
-        <table>
+        <table class="table-specialties">
           <thead>
             <tr>
               <th>Dias</th>
@@ -156,15 +166,15 @@
       </div>
     </section>
 
-    <section id="psicologia">
-      <div>
+    <section id="psicologia" class="container-limitado">
+      <div class="container-conteudo">
         <h3>Psicologia</h3>
         <p>Psicologia é a especialidade médica que trata da mente, do estudo e análise de seus processos e comportamento de indivíduos e grupos humanos em diferentes situações.</p>
       </div>
 
-      <div>
+      <div class="specialties-schedule">
           <img src="assets/psicologo.png" alt="Psicólogo" title="Psicólogo">
-          <table>
+          <table class="table-specialties">
             <thead>
               <tr>
                 <th>Dias</th>
@@ -194,15 +204,15 @@
       </div>
     </section>
 
-    <section id="fisioterapia">
-      <div>
+    <section id="fisioterapia" class="container-limitado">
+      <div class="container-conteudo">
         <h3>Fisioterapia</h3>
         <p>Fisioterapia é uma ciência da saúde aplicada ao estudo, diagnóstico, prevenção e tratamento de disfunções cinéticas funcionais de órgãos e sistemas.</p>
       </div>
 
-      <div>
+      <div class="specialties-schedule">
           <img src="assets/fisioterapia.png" alt="Fisioterapeuta" title="Fisioterapeuta">
-          <table>
+          <table class="table-specialties">
             <thead>
               <tr>
                 <th>Dias</th>
@@ -245,8 +255,8 @@
   </main>
 
   <footer>
-    <div>
-      <img src="assets/logo.png" alt="Clínica Médica" title="Clínica Médica Life">
+    <div class="cont container-limitado">
+      <img class="topo-logo" src="assets/logo.png" alt="Clínica Médica" title="Clínica Médica Life">
 
       <p>
         Telefone e WhatsApp: (21) 99966-5555

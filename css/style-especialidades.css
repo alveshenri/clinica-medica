@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #0000008c;
+}
+
+.container-conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.container-conteudo h2 {
+    margin: 10px;
+}
+
+/* TOPO */
+
+.topo {
+    background-color: rgb(107, 207, 207);
+    width: 100%;
+}
+
+.container-limitado {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+}
+
+.container img {
+    width: 100px;
+}
+
+.topo-links {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 600;
+}
+
+.topo-links a {
+    text-decoration: none;
+    margin: 0 20px;
+    color: #ffff;
+}
+
+.topo-links a:hover {
+    color: #0000008c;
+}
+
+/* END TOPO */
+
+/* ESPECIALIDADES LINKS */
+
+main {
+    margin-bottom: 40px;
+}
+
+.sec-specialties {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.specialties-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.specialties-links a {
+    text-decoration: none;
+    margin: 10px;
+    color: #000000;
+    border-bottom: 2px solid #67beb7;
+    font-size: 20px;
+}
+
+.sec-specialties a:hover {
+    color: #2d8d85;
+}
+
+/* END SPECIALTIES LINKS */
+
+/* SPECIALTIES SCHEDULE */
+
+.specialties-schedule {
+    display: flex;
+    height: 240px;
+    padding: 0 20px;
+}
+
+.specialties-schedule img {
+    width:30%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.table-specialties {
+    text-align: left;
+    border-spacing: 0;
+    width: 70%;
+    height: 100%;    
+}
+
+.table-specialties thead tr {
+    background-color: #00cad1;
+    color: #FFF;
+}
+
+.table-specialties tr {
+    background-color: #f1f1f1;
+    color: #585757;
+    font-weight: 500;
+}
+
+.table-specialties tbody tr:nth-of-type(2n+1) {
+    background-color: #cdcdcd;
+    border: 1px soid #f1f1f1;
+}
+
+.table-specialties th, .table-specialties td {
+    padding: 10px;
+}
+
+
+
+
+
+
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    background-color: rgb(107, 207, 207);
+}
+.cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+.cont img {
+    width: 120px;
+}
+
+/* END FOOTER */
