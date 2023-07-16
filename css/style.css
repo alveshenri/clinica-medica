@@ -14,7 +14,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 600px;
+    width: 60%px;
     margin: 30px auto;
     text-align: center;
 }
@@ -104,6 +104,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 20px;
     width: 100%;
 }
@@ -192,3 +193,52 @@ footer {
 }
 
 /* END FOOTER */
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 1024px) {
+    .box-visao-geral {
+        height: 400px;
+    }
+}
+
+@media (max-width: 768px) {
+    .box-visao-geral {
+        height: 300px;
+    }
+    .box-sobre img {
+        display: none;
+    }
+    .box-especialidades {
+        justify-content: center;
+    }
+    .box-especialidade {
+        width: calc(100 / 2 - 40px);
+    }
+}
+@media (max-width: 425px) {
+    .topo {
+        height: 100px;
+    }
+    
+    .container {
+        flex-direction: column;
+    }
+    .topo-titulo {
+        margin: 10px 0;
+    }
+    .topo-links {
+        width: 100%;
+        border-top: 1px solid #35a5a5;
+        justify-content: space-around;
+    }
+    .box-visao-geral {
+        height: 200px;
+    }
+    .box-visao-geral h1 {
+        font-size: 28px;
+    }
+    .box-especialidade {
+        width: 100%;
+    }
+}
